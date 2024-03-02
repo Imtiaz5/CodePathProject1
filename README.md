@@ -1,3 +1,3 @@
 # CodePathProject1
 
-Check out the Main Branch of this Project
+Check out the Master Branch of this Project
