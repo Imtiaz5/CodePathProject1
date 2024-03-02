@@ -1,0 +1,67 @@
+
+.background {
+  background-color: seagreen;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius:14px;
+  background-color:#fff;
+  color:#000;
+  padding-bottom:20px;
+  box-shadow:0 15px 25px #817c7c33;
+  font-size:medium;
+  backdrop-filter:blur(2px);
+  text-align:center;
+  margin-bottom:30px;
+  height: 450px;
+  margin: 35px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  height: 75%;
+  /*background-image: url('/home/imtiaz/Desktop/codepath/Project1/Food Truck Favorites/HalalGuys.jpg'); */
+  background-size: cover;
+  background-position: top center;
+}
+
+.info-container {
+  padding: 20px;
+}
+
+.info-container h2 {
+  font-weight: bold;
+}
+
+.info-container p {
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
